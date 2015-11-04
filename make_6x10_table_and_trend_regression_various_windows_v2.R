@@ -126,6 +126,8 @@ make.6x10.table<- function(specification ,weight_choice, drop_TX_FL = FALSE) {
   stargazer(my.table, title = my.title, notes = my.note)
   
 }
+
+#specification can either be "standard", "mm", or "lott"
 make.trend_regression.table<- function(specification, use_only_first_five_years, 
                                        weight_choice = "x_years_after_adoption") {
   
